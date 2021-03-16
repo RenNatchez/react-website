@@ -2,9 +2,9 @@ import React from 'react';
 
 function contact(props) {
     return (
-        <div>
-            
-        </div>
+        <Fragment>
+            <Footer/>
+        </Fragment>
     );
 }
 

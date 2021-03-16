@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react';
+import Footer from '../components/Footer';
 import GallerieHome from '../components/GallerieHome';
-import Gallery1 from './Gallery1';
 
 function Home(props) {
     return (
         <Fragment>
             <GallerieHome/>
+            <Footer/>
         </Fragment>
     );
 }

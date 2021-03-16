@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Footer from '../components/Footer';
 
 function Services(props) {
     return (
-        <div>
-            
-        </div>
+        <Fragment>
+            <Footer/>
+        </Fragment>
     );
 }
 

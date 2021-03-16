@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Footer from '../components/Footer';
 
 function Gallery2(props) {
     return (
-        <div>
-            
-        </div>
+        <Fragment>
+            <Footer/>
+        </Fragment>
     );
 }
 
