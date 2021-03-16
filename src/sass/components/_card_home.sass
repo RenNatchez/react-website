@@ -1,0 +1,38 @@
+section
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin: 0px 20px
+    .card-home
+        padding: 2px 0px
+        overflow: hidden
+        height: 38em
+        margin: 13px 0px
+        img
+            height: 38em
+            width: 38em
+            transition: 1s
+            filter: grayscale(100%)
+        .text-info
+            position: relative
+            top: -55%
+            text-align: center
+            h3
+                font-size: 30px
+                color: white
+                margin-bottom: 5%
+            a
+                all: unset
+                color: white
+                border: solid white 2px
+                font-size: 18px
+                padding: 1em 2em
+            a:hover
+                background-color: white
+                color: grey
+    .card-home:hover
+        img
+            transform: scale(1.2)
+            filter: none
+
+            
