@@ -1,10 +1,15 @@
 import React, { Fragment } from 'react';
-import Footer from '../components/Footer';
+import FooterFixed from '../components/FooterFixed';
+import GalerieServices from '../components/GalerieServices';
 
 function Services(props) {
     return (
         <Fragment>
-            <Footer/>
+            <section className="service">
+                <h1>My Services</h1>
+                <GalerieServices/>
+            </section>
+            <FooterFixed/>
         </Fragment>
     );
 }

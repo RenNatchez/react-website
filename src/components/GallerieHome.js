@@ -1,4 +1,4 @@
-import React, { Fragment,useState } from 'react';
+import React, { useState } from 'react';
 import CaseGalerieHome from './CaseGalerieHome';
 
 function GallerieHome(props) {
@@ -23,7 +23,7 @@ function GallerieHome(props) {
         link:'./img/img_5.jpg',
         navlinke:'/gallery1'},
         // ------------
-        {nom:'sports',
+        {nom:'Sports',
         link:'./img/img_6.jpg',
         navlinke:'/gallery2'},
         // ------------
@@ -42,10 +42,10 @@ function GallerieHome(props) {
     console.log(listeGalerie[1])
     return (
         <section>
-         {listeGalerie.map((el,i) =>{
-          return(
-            <CaseGalerieHome navlink={listeGalerie[i].navlinke} nom={listeGalerie[i].nom} urlImg={listeGalerie[i].link}/>
-          )
+            {listeGalerie.map((el,i) =>{
+            return(
+                <CaseGalerieHome navlink={listeGalerie[i].navlinke} nom={listeGalerie[i].nom} urlImg={listeGalerie[i].link}/>
+            )
         })
         }
         </section>
